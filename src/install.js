@@ -423,7 +423,7 @@ function setCopyrightWidget(next) {
 
 	db.init(function(err) {
 		if (!err) {
-			db.setObjectField('widgets:global', 'footer', "[{\"widget\":\"html\",\"data\":{\"html\":\"<footer id=\\\"footer\\\" class=\\\"container footer\\\">\\r\\n\\t<div class=\\\"copyright\\\">\\r\\n\\t\\tCopyright © 2015 <a target=\\\"_blank\\\" href=\\\"https://speedmachis.com\\\">SpeedMachis</a> \\r\\n\\t</div>\\r\\n</footer>\",\"title\":\"\",\"container\":\"\"}}]", next);
+			db.setObjectField('widgets:global', 'footer', "[{\"widget\":\"html\",\"data\":{\"html\":\"<footer id=\\\"footer\\\" class=\\\"container footer\\\">\\r\\n\\t<div class=\\\"copyright\\\">\\r\\n\\t\\tCopyright © 2015 <a target=\\\"_blank\\\" href=\\\"http://www.speedmachis.com\\\">SpeedMachis</a> \\r\\n\\t</div>\\r\\n</footer>\",\"title\":\"\",\"container\":\"\"}}]", next);
 		}
 	});
 }
